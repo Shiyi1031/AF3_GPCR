@@ -1,0 +1,29 @@
+{
+    "name": "dor",
+    "modelSeeds": [1],
+    "sequences": [
+        {
+            "protein": {
+                "id": ["A"],
+                "sequence": 
+"MEPAPSAGAELQPPLFANASDAYPSACPSAGANASGPPGARSASSLALAIAITALYSAVCAVGLLGNVLVMFGIVRYTKMKTATNIYIFNLALADALATSTLPFQSAKYLMETWPFGELLCKAVLSIDYYNMFTSIFTLTMMSVDRYIAVCHPVKALDFRTPAKAKLINICIWVLASGVGVPIMVMAVTRPRDGAVVCMLQFPSPSWYWDTVTKICVFLFAFVVPILIITVCYGLMLLRLRSVRLLSGSKEKDRSLRRITRMVLVVVGAFVVCWAPIHIFVIVWTLVDIDRRDPLVVAALHLCIALGYANSSLNPVLYAFLDENFKRCFRQLCRKPCGRPDPSSFSRAREATARERVTACTPSDGPGGGAAA"
+	    }
+        },
+        {
+            "ligand": {
+              "id": ["B"],
+              "smiles":
+"CCN(CC)C(=O)C1=CC=C(C=C1)C(C2=CC(=CC=C2)OC)N3C[C@@H](N(C[C@H]3C)CC=C)C"
+	    }
+        },
+	{
+            "ligand": {
+              "id": ["C"],
+              "smiles":
+"CC1=CC=CC=C1COC2=CC=C(C=C2)C3C4=C(CC(CC4=O)(C)C)OC5=C3C(=O)CC(C5)(C)C"
+	    }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

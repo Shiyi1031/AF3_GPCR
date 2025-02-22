@@ -1,0 +1,29 @@
+{
+    "name": "mor",
+    "modelSeeds": [1],
+    "sequences": [
+        {
+            "protein": {
+                "id": ["A"],
+                "sequence": 
+"MDSSAAPTNASNCTDALAYSSCSPAPSPGSWVNLSHLDGNLSDPCGPNRTDLGGRDSLCPPTGSPSMITAITIMALYSIVCVVGLFGNFLVMYVIVRYTKMKTATNIYIFNLALADALATSTLPFQSVNYLMGTWPFGTILCKIVISIDYYNMFTSIFTLCTMSVDRYIAVCHPVKALDFRTPRNAKIINVCNWILSSAIGLPVMFMATTKYRQGSIDCTLTFSHPTWYWENLLKICVFIFAFIMPVLIITVCYGLMILRLKSVRMLSGSKEKDRNLRRITRMVLVVVAVFIVCWTPIHIYVIIKALVTIPETTFQTVSWHFCIALGYTNSCLNPVLYAFLDENFKRCFREFCIPTSSNIEQQNSTRIRQNTRDHPSTANTVDRTNHQLENLEAETAPLP"
+	    }
+        },
+        {
+            "ligand": {
+              "id": ["B"],
+              "smiles":
+"C[C@H](C(=O)NCC(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCO)NC(=O)[C@H](CC2=CC=C(C=C2)O)N"
+            }
+        },
+	{
+            "ligand": {
+              "id": ["C"],
+              "smiles":
+"CC1=CC=CC=C1COC2=CC=C(C=C2)C3C4=C(CC(CC4=O)(C)C)OC5=C3C(=O)CC(C5)(C)C"
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}
